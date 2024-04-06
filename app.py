@@ -16,5 +16,4 @@ def llm_chat():
     return response.content
 
 if __name__ == "__main__":
-    config.load()
     app.run(host="0.0.0.0", port=8080, debug=True)
