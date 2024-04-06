@@ -2,6 +2,7 @@
 langchainライブラリを使ってchatgptとチャットする非常にシンプルなプログラム
 
 # 利用方法
+0. config_sample.py を参考に config.py を作成する
 1. app.pyを起動する
 2. ウェブブラウザでtpp.pyにアクセスする
 3. ChatGPTに送りたい文字列を `?text=<chatgptに送りたい文字列>` で指定する
@@ -30,3 +31,4 @@ poetry run python app.py
 - http://localhost:8080/?text=who%20is%20the%20fastest%20man
 
 ![image](https://github.com/aRaikoFunakami/test_langchain/assets/611793/b1693c2f-482b-4077-b46f-39617ff38875)
+
